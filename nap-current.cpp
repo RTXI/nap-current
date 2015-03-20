@@ -20,7 +20,7 @@
  * Persistent sodium channel
  */
 
-#include <gNaP.h>
+#include <nap-current.h>
 #include <math.h>
 #include <QtGui>
 

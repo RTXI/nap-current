@@ -1,4 +1,4 @@
-PLUGIN_NAME = na-p_current
+PLUGIN_NAME = nap_current
 
 HEADERS = nap-current.h
 
