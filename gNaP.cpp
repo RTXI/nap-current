@@ -22,7 +22,7 @@
 
 #include <gNaP.h>
 #include <math.h>
-#include <QtGui>
+#include <qwhatsthis.h>
 
 extern "C" Plugin::Object *
 createRTXIPlugin(void)
@@ -62,7 +62,7 @@ g_Na_p::g_Na_p(void) :
       seed(13), noise_on(0), vna(55.0), gnap_max(0), nnap(1200), pmax(1.0),
       taup(0.15), v_half(-45.9), dv(3.2)
 {
-  setWhatsThis(
+  QWhatsThis::add(this,
       "<p><b>Persistent Sodium Conductance:</b><br>This module creates a persistent sodium conductance.</p>");
   dt = RT::System::getInstance()->getPeriod() * 1e-6;
 
