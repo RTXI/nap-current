@@ -1,8 +1,8 @@
-PLUGIN_NAME = gNaP
+PLUGIN_NAME = na-p_current
 
-HEADERS = gNaP.h
+HEADERS = nap-current.h
 
-SOURCES = gNaP.cpp \
+SOURCES = nap-current.cpp
 
 LIBS = 
 

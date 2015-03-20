@@ -69,8 +69,9 @@ g_Na_p::g_Na_p(void) :
   rand_num[0] = 1;
   rand_num[1] = 1;
   createGUI(vars, num_vars);
-  update( INIT);
+  update(INIT);
   refresh();
+  QTimer::singleShot(0, this, SLOT(resizeMe()));
 }
 
 g_Na_p::~g_Na_p(void)
