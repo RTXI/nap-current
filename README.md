@@ -7,7 +7,7 @@
 
 <!--start-->
 
-This module creates a persistent sodium conductance.  
+This module creates a persistent sodium conductance with the option of adding stochastic or deterministic noise.  
 
 <!--end-->
 
