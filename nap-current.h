@@ -27,32 +27,29 @@
 class g_Na_p : public DefaultGUIModel
 {
 
-public:
+	public:
 
-  g_Na_p(void);
-  virtual
-  ~g_Na_p(void);
+		g_Na_p(void);
+		virtual ~g_Na_p(void);
 
-  virtual void
-  execute(void);
+		virtual void execute(void);
 
-protected:
+	protected:
 
-  virtual void
-  update(DefaultGUIModel::update_flags_t);
+		virtual void update(DefaultGUIModel::update_flags_t);
 
-private:
+	private:
 
-  double seed;
-  bool noise_on;
-  double vna;
-  double gnap_max;
-  unsigned int nnap;
-  double pmax;
-  double taup;
-  double v_half;
-  double dv;
-  double rand_num[2];
-  double dt;
+		double seed;
+		bool noise_on;
+		double vna;
+		double gnap_max;
+		unsigned int nnap;
+		double pmax;
+		double taup;
+		double v_half;
+		double dv;
+		double rand_num[2];
+		double dt;
 
 };
